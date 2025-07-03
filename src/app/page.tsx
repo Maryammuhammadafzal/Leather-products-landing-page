@@ -4,6 +4,7 @@ import ProductPage from "./product/page";
 import FeaturedPage from "./featured/page";
 import AboutPage from "./about/page";
 import Banner from "@/components/Banner";
+import TestimonialPage from "./testimonial/page";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <FeaturedPage/>
       <AboutPage/>
       <Banner/>
+      <TestimonialPage/>
     </div>
   );
 }
