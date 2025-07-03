@@ -1,11 +1,83 @@
-import React from 'react'
+import { MoveRight, MoveRightIcon } from "lucide-react";
+import Image from "next/image";
+import React from "react";
 
 const ProductPage = () => {
   return (
-    <div>
-      
+    <div className="w-full h-auto flex justify-center items-center py-20">
+      <div className="grid grid-rows-2 justify-center items-center w-full h-auto">
+        <div className="grid grid-cols-3 w-full h-auto justify-center items-center">
+          <div className="w-full h-[600px] group relative">
+            <Image
+              src="/images/product-image1.jpg"
+              width={400}
+              height={400}
+              alt="icon"
+              className="w-full h-full object-cover"
+            />
+            <div className="content w-auto h-auto  flex gap-2 items-center py-10 opacity-0 text-secondary transform translate-0 group-hover:-translate-y-30 group-hover:opacity-100 duration-500 px-8">
+              <p className="text-5xl font-mono">{`Men’s Wallet`}</p>
+              <MoveRightIcon size={30} />
+            </div>
+          </div>
+          <div className="w-full h-[600px] group relative">
+            <Image
+              src="/images/product-image2.png"
+              width={400}
+              height={400}
+              alt="icon"
+              className="w-full h-full object-cover"
+            />
+            <div className="content w-auto h-auto  flex gap-2 items-center py-10 opacity-0 text-secondary transform translate-0 group-hover:-translate-y-30 group-hover:opacity-100 duration-500 px-8">
+              <p className="text-5xl font-mono">{`Jackets`}</p>
+              <MoveRightIcon size={30} />
+            </div>
+          </div>
+          <div className="w-full h-[600px] group relative">
+            <Image
+              src="/images/product-image3.png"
+              width={400}
+              height={400}
+              alt="icon"
+              className="w-full h-full object-cover"
+            />
+            <div className="content w-auto h-auto  flex gap-2 items-center py-10 opacity-0 text-secondary transform translate-0 group-hover:-translate-y-30 group-hover:opacity-100 duration-500 px-8">
+              <p className="text-5xl font-mono">{`Ladies Bag`}</p>
+              <MoveRightIcon size={30} />
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 w-full h-auto justify-center items-center">
+          <div className="w-full h-[600px] group relative">
+            <Image
+              src="/images/product-image4.png"
+              width={400}
+              height={400}
+              alt="icon"
+              className="w-full h-full object-cover"
+            />
+            <div className="content w-auto h-auto  flex gap-2 items-center py-10 opacity-0 text-secondary transform translate-0 group-hover:-translate-y-30 group-hover:opacity-100 duration-500 px-8">
+              <p className="text-5xl font-mono">{`Bags`}</p>
+              <MoveRightIcon size={30} />
+            </div>
+          </div>
+          <div className="w-full h-[600px] group relative">
+            <Image
+              src="/images/product-image5.png"
+              width={400}
+              height={400}
+              alt="icon"
+              className="w-full h-full object-cover"
+            />
+            <div className="content w-auto h-auto  flex gap-2 items-center py-10 opacity-0 text-secondary transform translate-0 group-hover:-translate-y-30 group-hover:opacity-100 duration-500 px-8">
+              <p className="text-5xl font-mono">{`Watches`}</p>
+              <MoveRightIcon size={30} />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProductPage
+export default ProductPage;
