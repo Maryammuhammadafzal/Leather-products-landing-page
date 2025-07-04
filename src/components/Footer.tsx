@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -30,11 +31,11 @@ const Footer = () => {
               Pages
             </h3>
             <ul className="flex flex-col md:gap-3 gap-2">
-              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Home</li>
-              <li className="md:text-xl sm:text-lg xs:text-base text-sm">About Us</li>
-              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Collection</li>
-              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Features</li>
-              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Testimonial</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm"><Link href='/'>Home</Link></li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm"><Link href='/about'>About Us</Link></li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm"><Link href='/collection'>Collection</Link></li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm"><Link href='/features'>Features</Link></li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm"><Link href='/testimonial'>Testimonial</Link></li>
             </ul>
           </div>
           <div className="flex px-3 flex-col max-w-sm md:gap-4 gap-2 w-auto h-auto">

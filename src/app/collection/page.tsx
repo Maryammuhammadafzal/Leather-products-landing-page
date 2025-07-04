@@ -1,10 +1,10 @@
-import { MoveRight, MoveRightIcon } from "lucide-react";
+import { MoveRightIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-const ProductPage = () => {
+const CollectionPage = () => {
   return (
-    <div className="w-full h-auto flex justify-center items-center md:py-20 sm:py-14 xs:py-8 py-4">
+    <div id="collection" className="collection w-full h-auto flex justify-center items-center md:py-20 sm:py-14 xs:py-8 py-4">
       <div className="grid grid-rows-2 justify-center items-center w-full h-auto">
         <div className="grid xs:grid-cols-3 grid-cols-2 w-full h-auto justify-center items-center">
           <div id="mens-wallet" className="w-full xl:h-[600px] lg:h-[530px] md:h-[450px] sm:h-[380px] xs:h-[300px] h-[220px] group relative">
@@ -80,4 +80,4 @@ const ProductPage = () => {
   );
 };
 
-export default ProductPage;
+export default CollectionPage;

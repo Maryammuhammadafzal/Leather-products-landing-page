@@ -41,7 +41,7 @@ const FeaturedPage = () => {
         },
     ]
   return (
-    <div className="w-full h-auto md:py-20 sm:py-14 xs:py-8 py-4 flex justify-center items-center">
+    <div id="featured" className="featured w-full h-auto md:py-20 sm:py-14 xs:py-8 py-4 flex justify-center items-center">
       <div className="flex w-full h-auto gap-10 flex-col items-center justify-center">
         <h2 className="font-mono md:text-[40px] sm:text-[34px] xs:text-[28px] min-[350px]:text-[24px] text-[20px] text-primary text-center uppercase max-w-2xl">
           Explore Our Featured Favorites Collection
