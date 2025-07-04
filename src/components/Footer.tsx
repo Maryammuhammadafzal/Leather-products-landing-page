@@ -8,12 +8,12 @@ const Footer = () => {
         <div className="flex flex-wrap gap-8 justify-evenly w-full h-auto  py-10">
           <div className="logo flex w-auto max-w-sm h-auto flex-col gap-4">
             <Image src="/images/logo.png" alt="logo" width={100} height={100} />
-            <p className="xl:text-xl lg:text-lg text-base xl:leading-8 lg:leading-6 font-sans leading-5">
+            <p className="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs xl:leading-8 lg:leading-6 font-sans leading-5">
               Explore our collection in person at [Store Location(s)], or browse
               online and enjoy the convenience of secure shopping and shipping.
             </p>
           </div>
-          <div className="flex flex-col gap-4 w-auto h-auto">
+          <div className="flex flex-col md:gap-4 gap-2 w-auto h-auto">
             <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Products
             </h3>
@@ -25,11 +25,11 @@ const Footer = () => {
               <li className="md:text-xl sm:text-lg xs:text-base text-sm">Custom Products</li>
             </ul>
           </div>
-          <div className="flex flex-col gap-4 w-auto h-auto">
+          <div className="flex flex-col md:gap-4 gap-2 w-auto h-auto">
             <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Pages
             </h3>
-            <ul className="flex flex-col gap-3">
+            <ul className="flex flex-col md:gap-3 gap-2">
               <li className="md:text-xl sm:text-lg xs:text-base text-sm">Home</li>
               <li className="md:text-xl sm:text-lg xs:text-base text-sm">About Us</li>
               <li className="md:text-xl sm:text-lg xs:text-base text-sm">Collection</li>
@@ -37,11 +37,11 @@ const Footer = () => {
               <li className="md:text-xl sm:text-lg xs:text-base text-sm">Testimonial</li>
             </ul>
           </div>
-          <div className="flex px-3 flex-col max-w-sm gap-4 w-auto h-auto">
+          <div className="flex px-3 flex-col max-w-sm md:gap-4 gap-2 w-auto h-auto">
             <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Contact Us
             </h3>
-            <ul className="flex flex-col gap-3">
+            <ul className="flex flex-col md:gap-3 gap-2">
               <li className="md:text-xl sm:text-lg xs:text-base text-sm">
                 2972 Westheimer Rd. Santa Ana, Illinois 85486
               </li>

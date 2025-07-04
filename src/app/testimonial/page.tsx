@@ -42,7 +42,7 @@ const TestimonialPage = () => {
           </h2>
         </div>
         <div className="testimonial-slider w-full h-auto flex gap-5                                                                                                                                                                                    ">
-          <Carousel className="w-full h-[500px] flex justify-center items-center">
+          <Carousel className="w-full md:h-[400px] sm:h-[350px] h-[300px] flex justify-center items-center">
             <CarouselContent className="-ml-4 w-full flex gap-4 h-full justify-center items-center absolute top-0 left-0">
               {testimonial_data.map((testimonial, index) => (
                 <CarouselItem key={index} className="max-lg:mx-auto lg:basis-1/2 w-full">
@@ -57,7 +57,7 @@ const TestimonialPage = () => {
                       />
                     </div>
                     <div className="flex justify-center items-center h-auto text-center">
-                      <p className="text-xl font-sans text-primary">
+                      <p className="md:text-xl sm:text-base text-sm font-sans text-primary">
                        {testimonial.description}
                       </p>
                     </div>
