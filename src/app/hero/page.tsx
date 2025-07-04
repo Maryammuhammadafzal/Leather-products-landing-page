@@ -27,7 +27,7 @@ const HeroPage = () => {
                   Step into the World of BoldCraft Leatherworks
                 </h1>
                 <div className="w-auto h-auto p-2">
-                  <Button className="font-mono text-lg bg-transparent rounded-full uppercase border border-secondary px-14 hover:bg-secondary hover:text-primary py-6">
+                  <Button className="font-mono sm:text-lg text-base bg-transparent rounded-full uppercase border border-secondary md:px-14 sm:px-12 px-10 hover:bg-secondary hover:text-primary md:py-6 sm:py-5 py-4">
                     Shop Now
                   </Button>
                 </div>
