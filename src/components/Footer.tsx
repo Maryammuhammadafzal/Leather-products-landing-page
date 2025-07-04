@@ -14,7 +14,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-col gap-4 w-auto h-auto">
-            <h3 className="lg:text-2xl md:text-xl text-lg text-secondary font-sans">
+            <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Products
             </h3>
             <ul className="flex flex-col gap-3">
@@ -26,7 +26,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col gap-4 w-auto h-auto">
-            <h3 className="lg:text-2xl md:text-xl text-lg text-secondary font-sans">
+            <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Pages
             </h3>
             <ul className="flex flex-col gap-3">
@@ -38,7 +38,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col max-w-sm gap-4 w-auto h-auto">
-            <h3 className="lg:text-2xl md:text-xl text-lg text-secondary font-sans">
+            <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Contact Us
             </h3>
             <ul className="flex flex-col gap-3">
