@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="w-full h-auto py-10 flex justify-center items-center">
       <div className="flex flex-col gap-6 justify-center items-center w-full h-full">
-        <div className="flex flex-wrap gap-4 justify-evenly w-full h-auto  py-10">
+        <div className="flex flex-wrap gap-8 justify-evenly w-full h-auto  py-10">
           <div className="logo flex w-auto max-w-sm h-auto flex-col gap-4">
             <Image src="/images/logo.png" alt="logo" width={100} height={100} />
             <p className="xl:text-xl lg:text-lg text-base xl:leading-8 lg:leading-6 font-sans leading-5">
@@ -17,12 +17,12 @@ const Footer = () => {
             <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Products
             </h3>
-            <ul className="flex flex-col gap-3">
-              <li className="md:text-xl text-lg">Wallet</li>
-              <li className="md:text-xl text-lg">Bags</li>
-              <li className="md:text-xl text-lg">Watches</li>
-              <li className="md:text-xl text-lg">Jackets</li>
-              <li className="md:text-xl text-lg">Custom Products</li>
+            <ul className="flex flex-col md:gap-3 gap-2">
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Wallet</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Bags</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Watches</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Jackets</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Custom Products</li>
             </ul>
           </div>
           <div className="flex flex-col gap-4 w-auto h-auto">
@@ -30,27 +30,27 @@ const Footer = () => {
               Pages
             </h3>
             <ul className="flex flex-col gap-3">
-              <li className="md:text-xl text-lg">Home</li>
-              <li className="md:text-xl text-lg">About Us</li>
-              <li className="md:text-xl text-lg">Collection</li>
-              <li className="md:text-xl text-lg">Features</li>
-              <li className="md:text-xl text-lg">Testimonial</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Home</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">About Us</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Collection</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Features</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">Testimonial</li>
             </ul>
           </div>
-          <div className="flex flex-col max-w-sm gap-4 w-auto h-auto">
+          <div className="flex px-3 flex-col max-w-sm gap-4 w-auto h-auto">
             <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Contact Us
             </h3>
             <ul className="flex flex-col gap-3">
-              <li className="md:text-xl text-lg">
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">
                 2972 Westheimer Rd. Santa Ana, Illinois 85486
               </li>
-              <li className="md:text-xl text-lg">(209) 555-0104</li>
-              <li className="md:text-xl text-lg">nathan.roberts@example.com</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">(209) 555-0104</li>
+              <li className="md:text-xl sm:text-lg xs:text-base text-sm">nathan.roberts@example.com</li>
             </ul>
           </div>
         </div>
-        <div className="w-full flex text-center justify-center items-center">
+        <div className="w-full flex text-center justify-center md:text-base sm:text-sm text-xs px-2 items-center">
           © 2021 all copyright reserved. All Rights Reserved. Rootlet Solutions
         </div>
       </div>
