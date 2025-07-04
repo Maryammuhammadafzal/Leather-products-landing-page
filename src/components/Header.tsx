@@ -1,5 +1,6 @@
 import { Search, ShoppingCart, User } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -18,13 +19,13 @@ const Header = () => {
         </div>
         <nav className="nav w-full h-auto py-4 flex justify-center items-center">
           <ul className="w-auto px-2 lg:gap-11 md:gap-8 sm:gap-5 xs:gap-3 gap-1 max-sm:flex-wrap flex justify-center items-center">
-            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1">{`Men’s Wallet`}</li>
-            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1">Jackets</li>
-            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1">Ladies Bags</li>
-            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1">Bags</li>
-            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1">Watches</li>
-            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1">Gifts</li>
-            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1">Travel & More</li>
+            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1"><Link href='#mens-wallet'>{`Men’s Wallet`}</Link></li>
+            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1"><Link href='#jackets'>Jackets</Link></li>
+            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1"><Link href='#ladies-bag'>Ladies Bags</Link></li>
+            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1"><Link href='#bags'>Bags</Link></li>
+            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1"><Link href='#watches'>Watches</Link></li>
+            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1"><Link href='#gifts'>Gifts</Link></li>
+            <li className="text-primary font-mono md:text-lg lg:text-xl sm:text-base text-sm p-1"><Link href='#bags'>Travel & More</Link></li>
           </ul>
         </nav>
         <div className="w-full h-auto flex sm:p-2 pt-2 border-t border-primary/20 justify-center items-center">
