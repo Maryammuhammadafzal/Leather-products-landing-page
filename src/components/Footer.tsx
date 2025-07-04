@@ -4,17 +4,18 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full h-auto py-10 flex justify-center items-center">
+    <div className="w-full h-auto py-10 flex justify-center items-center relative">
+       <Image src="/images/needle-vector.png" width={80} height={80} alt="logo" className="absolute xl:bottom-20 bottom-40 rotate-90 xl:left-40 right-30 z-30 md:block hidden" />
       <div className="flex flex-col gap-6 justify-center items-center w-full h-full">
         <div className="flex flex-wrap gap-8 justify-evenly w-full h-auto  py-10">
-          <div className="logo flex w-auto max-w-sm h-auto flex-col gap-4">
+          <div className="logo flex max-sm:px-4 md:max-w-sm sm:max-w-xs w-full h-auto flex-col gap-4">
             <Image src="/images/logo.png" alt="logo" width={100} height={100} />
             <p className="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs xl:leading-8 lg:leading-6 font-sans leading-5">
               Explore our collection in person at [Store Location(s)], or browse
               online and enjoy the convenience of secure shopping and shipping.
             </p>
           </div>
-          <div className="flex flex-col md:gap-4 gap-2 w-auto h-auto">
+          <div className="flex flex-col md:gap-4 max-xs:w-full px-4 gap-2 w-auto h-auto">
             <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Products
             </h3>
@@ -26,7 +27,7 @@ const Footer = () => {
               <li className="md:text-xl sm:text-lg xs:text-base text-sm">Custom Products</li>
             </ul>
           </div>
-          <div className="flex flex-col md:gap-4 gap-2 w-auto h-auto">
+          <div className="flex flex-col md:gap-4  max-xs:w-full px-4 gap-2 w-auto h-auto">
             <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Pages
             </h3>
@@ -38,7 +39,7 @@ const Footer = () => {
               <li className="md:text-xl sm:text-lg xs:text-base text-sm"><Link href='/testimonial'>Testimonial</Link></li>
             </ul>
           </div>
-          <div className="flex px-3 flex-col max-w-sm md:gap-4 gap-2 w-auto h-auto">
+          <div className="flex px-3 md:px-8 flex-col lg:max-w-sm w-full md:gap-4 gap-2  h-auto">
             <h3 className="lg:text-2xl md:text-xl text-lg text-primary font-mono">
               Contact Us
             </h3>
