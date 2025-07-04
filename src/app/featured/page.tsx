@@ -63,7 +63,7 @@ const FeaturedPage = () => {
         width={200}
         height={200}
         alt="vector"
-        className="absolute top-80 xl:right-0 rotate-90 lg:right-18 right-0 z-30 md:block hidden"
+        className="absolute xl:top-80 top-0 xl:right-0 rotate-90 lg:right-0 right-0 z-30 md:block hidden"
       />
       <div className="flex w-full h-auto gap-10 flex-col items-center justify-center">
         <h2 className="font-mono md:text-[40px] sm:text-[34px] xs:text-[28px] min-[350px]:text-[24px] text-[20px] text-primary text-center uppercase max-w-2xl">
