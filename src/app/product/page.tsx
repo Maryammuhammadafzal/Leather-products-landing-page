@@ -6,8 +6,8 @@ const ProductPage = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center py-20">
       <div className="grid grid-rows-2 justify-center items-center w-full h-auto">
-        <div className="grid grid-cols-3 w-full h-auto justify-center items-center">
-          <div className="w-full h-[600px] group relative">
+        <div className="grid xs:grid-cols-3 grid-cols-2 w-full h-auto justify-center items-center">
+          <div className="w-full xl:h-[600px] lg:h-[530px] md:h-[450px] sm:h-[380px] xs:h-[300px] h-[220px] group relative">
             <Image
               src="/images/product-image1.jpg"
               width={400}
@@ -20,7 +20,7 @@ const ProductPage = () => {
               <MoveRightIcon size={30} />
             </div>
           </div>
-          <div className="w-full h-[600px] group relative">
+          <div className="w-full xl:h-[600px] lg:h-[530px] md:h-[450px] sm:h-[380px] xs:h-[300px] h-[220px] group relative">
             <Image
               src="/images/product-image2.png"
               width={400}
@@ -33,7 +33,7 @@ const ProductPage = () => {
               <MoveRightIcon size={30} />
             </div>
           </div>
-          <div className="w-full h-[600px] group relative">
+          <div className="w-full xl:h-[600px] lg:h-[530px] md:h-[450px] sm:h-[380px] xs:h-[300px] xs:block hidden h-[220px] group relative">
             <Image
               src="/images/product-image3.png"
               width={400}
@@ -48,7 +48,7 @@ const ProductPage = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 w-full h-auto justify-center items-center">
-          <div className="w-full h-[600px] group relative">
+          <div className="w-full xl:h-[600px] lg:h-[530px] md:h-[450px] sm:h-[380px] xs:h-[300px] h-[220px] group relative">
             <Image
               src="/images/product-image4.png"
               width={400}
@@ -61,7 +61,7 @@ const ProductPage = () => {
               <MoveRightIcon size={30} />
             </div>
           </div>
-          <div className="w-full h-[600px] group relative">
+          <div className="w-full xl:h-[600px] lg:h-[530px] md:h-[450px] sm:h-[380px] xs:h-[300px] h-[220px] group relative">
             <Image
               src="/images/product-image5.png"
               width={400}
