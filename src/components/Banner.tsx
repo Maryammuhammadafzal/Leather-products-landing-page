@@ -2,7 +2,7 @@
 import Image from "next/image";
 const Banner = () => {
   return (
-    <div className='w-full h-[450px] py-10 flex justify-center items-center'>
+    <div className='w-full md:h-[450px] sm:h-[350px] md:py-10 sm:py-5 flex justify-center items-center'>
       <Image
               src="/images/banner-image.png"
               alt="image"
