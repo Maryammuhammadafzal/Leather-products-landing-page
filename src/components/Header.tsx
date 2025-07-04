@@ -5,7 +5,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full xs:h-[250px] h-[200px] bg-white flex justify-center items-center">
+    <div className="w-full xs:h-[250px] h-[200px] bg-white flex justify-center relative items-center">
+       <Image src="/images/needle-vector.png" width={80} height={80} alt="logo" className="absolute xl:top-20 top-24 xl:right-40 right-0 z-30 md:block hidden" />
+       <Image src="/images/shoe-vector.png" width={100} height={100} alt="logo" className="absolute top-16 xl:left-24 lg:left-18 left-0 z-30 md:block hidden" />
       <div className="flex flex-col w-full h-[170px] justify-start items-center">
         <div className="logo flex sm:py-5 py-2 w-full  justify-center items-center h-auto">
           <a href="/" className="w-[50%] flex md:justify-end">
